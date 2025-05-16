@@ -157,7 +157,19 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 96px;
+    margin-top: 70px;
+}
+
+.clients .images a {
+    display: flex;
+    align-items: center;
+    padding: 0 42px;
+    height: 91px;
+}
+
+.clients .images a:hover {
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
 }
 
 /* ======== Guides ======== */
@@ -592,10 +604,8 @@ a {
 
 .footer .row {
     display: flex;
-    justify-content: space-between;   
-    
+    justify-content: space-between;
 }
-
 
 .footer .heading {
     color: #1c1c1d;
@@ -630,7 +640,6 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 
 .footer .logo {
@@ -641,7 +650,7 @@ a {
 }
 
 .footer .copyright {
-    position: absolute;    
+    position: absolute;
     color: #c2c2c2;
     font-size: 1.4rem;
     font-weight: 400;
